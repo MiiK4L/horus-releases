@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Horus</title>
+    <link>https://github.com/MiiK4L/horus-releases</link>
+    <description>Mises à jour de Horus</description>
+    <language>fr</language>
+    <item>
+      <title>Horus 2.3</title>
+      <pubDate>Wed, 18 Nov 2026 11:05:48 GMT</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>Nouveautés de la 2.3</h3>
+<ul><li><b>Mises à jour automatiques</b> : Horus vérifie chaque jour et propose « Installer et relancer » (Réglages › Mises à jour de Horus).</li><li><b>Assistant</b> : posez n&#x27;importe quelle question sur votre Mac (mémoire, chaleur, batterie…), avec suivi de la conversation ; réponses plus directes.</li><li><b>Désinstallation</b> : la confirmation de Mole ne bloque plus ; boutons Confirmer / Annuler si besoin.</li><li><b>Écran Tendances</b> fluide, accueil plus léger, barre des menus corrigée.</li><li><b>Pression mémoire</b> plus juste (l&#x27;avertissement de macOS ne compte que si la mémoire manque vraiment).</li><li><b>Espace disque</b> : « Analyse partielle » expliquée ; <b>services Homebrew</b> en erreur expliqués.</li></ul>
+<h3>Installation</h3>
+<p>Glissez Horus dans Applications. Premier lancement : <b>Réglages Système › Confidentialité et sécurité › « Ouvrir quand même »</b>. Mole est nécessaire : <code>brew install mole</code>.</p>
+      ]]></description>
+      <enclosure url="https://github.com/MiiK4L/horus-releases/releases/download/v2.3/Horus-2.3.dmg" sparkle:edSignature="hCobZsS6W3L5RMM6zQCxAEm4O2sAgQKWrhNrU+P4T7X0fAgMx5rjtp8dtHjFBrggzje5qUaIyqfaUbnhKaXRDw==" length="6096267" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
