@@ -6,6 +6,20 @@
     <description>Mises à jour de Horus</description>
     <language>fr</language>
     <item>
+      <title>Horus 2.4</title>
+      <pubDate>Wed, 18 Nov 2026 13:27:34 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>2.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>Nouveautés de la 2.4</h3>
+<ul><li><b>Assistant plus pertinent</b> : Horus calcule lui-même ses constats (la mémoire manque-t-elle vraiment, qui l&#x27;accapare, ce qui charge le processeur, la température, le disque) et l&#x27;IA s&#x27;appuie dessus au lieu de deviner.</li><li><b>Mémoire regroupée par app</b> : une app et tous ses sous-processus comptent ensemble (par exemple Brave et ses 52 processus), avec leur part de la RAM.</li><li><b>Conseils ciblés</b> pour les apps bâties sur Chromium ou Electron (navigateurs, Claude, Discord…), où chaque onglet ou fenêtre est un processus à part.</li><li>Processus système mieux expliqués, dont Apple Intelligence quand elle répond.</li></ul>
+<h3>Installation</h3>
+<p>Glissez Horus dans Applications. Premier lancement : <b>Réglages Système › Confidentialité et sécurité › « Ouvrir quand même »</b>. Mole est nécessaire : <code>brew install mole</code>.</p>
+      ]]></description>
+      <enclosure url="https://github.com/MiiK4L/horus-releases/releases/download/v2.4/Horus-2.4.dmg" sparkle:edSignature="7OTaKAx8IX+xLdEBDjzevVWwpj91J9vIFSCPGY4bNNBT4es8RIcczPVHB0hIefKMXvjwnHFfH0zYyyne9vldDg==" length="6105928" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Horus 2.3</title>
       <pubDate>Wed, 18 Nov 2026 11:05:48 GMT</pubDate>
       <sparkle:version>8</sparkle:version>
