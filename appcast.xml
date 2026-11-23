@@ -6,6 +6,20 @@
     <description>Mises à jour de Horus</description>
     <language>fr</language>
     <item>
+      <title>Horus 2.6.1</title>
+      <pubDate>Mon, 23 Nov 2026 15:55:06 GMT</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>2.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>Corrections de la 2.6.1</h3>
+<ul><li><b>Assistant plus fiable avec Apple Intelligence</b> : Horus fait lui-même les vérifications adaptées à la question (réseau, débit, processus, plantages…) et en donne le verdict. Le modèle d&#x27;Apple se contente de l&#x27;expliquer.</li><li><b>Boutons d&#x27;action</b> fournis par Horus : pour « fermer ce qui consomme », il propose l&#x27;app la plus gourmande en processeur et celle qui prend le plus de mémoire.</li><li>L&#x27;assistant ne parle plus d&#x27;un bouton qui n&#x27;existe pas.</li><li>Les composants de macOS (Centre de contrôle, WindowServer, Finder, services système…) ne sont jamais visés par une action.</li><li>Le Wi-Fi et la liaison avec le routeur sont jugés directement (bon, lent, pertes) ; un routeur qui ignore le ping n&#x27;est plus compté comme une panne.</li></ul>
+<h3>Installation</h3>
+<p>Glissez Horus dans Applications. Premier lancement : <b>Réglages Système › Confidentialité et sécurité › « Ouvrir quand même »</b>. Mole est nécessaire : <code>brew install mole</code>.</p>
+      ]]></description>
+      <enclosure url="https://github.com/MiiK4L/horus-releases/releases/download/v2.6.1/Horus-2.6.1.dmg" sparkle:edSignature="0NK+/bSb+VnNPA9kOB2ybKeOaW1y9a4QPjKECLqMeDFy2GBroFNAbOzaQ5v1cfCu5f7IuxCgZELqduNmVpTEAg==" length="6325088" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Horus 2.6</title>
       <pubDate>Mon, 23 Nov 2026 15:02:59 GMT</pubDate>
       <sparkle:version>11</sparkle:version>
