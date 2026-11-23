@@ -6,6 +6,20 @@
     <description>Mises à jour de Horus</description>
     <language>fr</language>
     <item>
+      <title>Horus 2.5</title>
+      <pubDate>Mon, 23 Nov 2026 14:03:31 GMT</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>2.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>Nouveautés de la 2.5</h3>
+<ul><li><b>Assistant plus précis</b> : il répond seulement à la question posée et ne reçoit que les données utiles. Une question sur un fichier ne parle plus de mémoire.</li><li><b>Questions sur un fichier</b> : citez un nom (par exemple <code>rootfs.img</code>) et l&#x27;assistant le retrouve sur le Mac. Il dit à quelle app il appartient, la place qu&#x27;il occupe réellement, ce que c&#x27;est et si on peut le supprimer.</li><li>Fichiers volumineux reconnus : machines virtuelles (Claude Cowork, Docker, OrbStack, Colima), modèles d&#x27;IA locaux, simulateurs et fichiers de compilation Xcode, sauvegardes d&#x27;iPhone, caches, installateurs.</li><li><b>Relances naturelles</b> : « je peux le supprimer ? » reprend le fichier ou l&#x27;app dont on vient de parler.</li></ul>
+<h3>Installation</h3>
+<p>Glissez Horus dans Applications. Premier lancement : <b>Réglages Système › Confidentialité et sécurité › « Ouvrir quand même »</b>. Mole est nécessaire : <code>brew install mole</code>.</p>
+      ]]></description>
+      <enclosure url="https://github.com/MiiK4L/horus-releases/releases/download/v2.5/Horus-2.5.dmg" sparkle:edSignature="znynVynesfdf552Q3HxNy7QkvgA1VF3dvnMkZgaXDWQywDnY5Tfy5zmkAuUgSHdBmHg9jaXRFCzZH8dfqKv9Bg==" length="6136445" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Horus 2.4</title>
       <pubDate>Wed, 18 Nov 2026 13:27:34 GMT</pubDate>
       <sparkle:version>9</sparkle:version>
